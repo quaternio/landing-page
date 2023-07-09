@@ -37,11 +37,57 @@ a {
 .header .top {
   display: flex;
   flex-direction: row;
+  padding-top: 16px;
 }
 
 .header .top .left {
   font-size: 24px;
   color: #F9FAF8;
+  width: 160px;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.header .top .right {
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.header .bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.header .bottom .left {
+  display: flex;
+  flex-direction: column;
+}
+
+.header .bottom .left .title {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: bold;
+}
+
+.header .bottom .left .body {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.header .bottom .left button {
+  background-color: #3882F6;
+  color: #FFF;
+}
+
+.header .bottom .right {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: #889;
+  color: #FFF;
 }
 
 .info {
