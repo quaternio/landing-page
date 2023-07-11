@@ -7,7 +7,7 @@ body {
 
 li {
   list-style: none;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 ul {
@@ -183,6 +183,40 @@ a {
 .sign-up {
   flex: 1;
   display: flex;
+  justify-content: center;
+}
+
+.sign-up .container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  border-radius: 5px;
+  margin: 80px 200px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 40px 80px;
+  gap: 80px;
+}
+
+.sign-up .container .left .top {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sign-up .container .right {
+  display: flex;
+  align-items: center;
+}
+
+.sign-up .container .right button {
+  width: 80px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+  background-color: #3882F6;
+  border-style: solid;
+  border-radius: 5px;
+  color: #FFF;
 }
 
 .footer {
